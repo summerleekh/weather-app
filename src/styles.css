@@ -1,0 +1,67 @@
+h1 {
+  color: #596aca;
+  font-weight: bold;
+  padding: 20px 0px 10px;
+  position: relative;
+  left: 10px;
+}
+
+h3 {
+  font-size: 50px;
+  padding: 15px;
+  position: relative;
+  left: 10px;
+}
+
+h4 {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 30px 0 60px 0;
+  margin: 0 auto;
+}
+
+h5 {
+  color: #596aca;
+  font-weight: bold;
+}
+
+p {
+  color: grey;
+  margin: 10px;
+}
+
+div {
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  
+}
+
+.submit-button {
+  background-color: black;
+  color: white;
+  
+}
+
+.location-button {
+  background-color: #596aca;
+  color: white;
+}
+
+.units {
+  font-size: 15px;
+  color: #596aca;
+  position: relative;
+  bottom: 30px;
+  left: 10px;
+}
+
+.col {
+  center
+}
+
+.cloud-icon {
+  font-size: 50px;
+}
