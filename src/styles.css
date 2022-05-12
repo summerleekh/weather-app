@@ -36,13 +36,11 @@ div {
 
 .container {
   margin: 0 auto;
-  
 }
 
 .submit-button {
   background-color: black;
   color: white;
-  
 }
 
 .location-button {
@@ -56,10 +54,6 @@ div {
   position: relative;
   bottom: 30px;
   left: 10px;
-}
-
-.col {
-  center
 }
 
 .cloud-icon {
