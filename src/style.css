@@ -1,7 +1,7 @@
 h1 {
   color: #596aca;
   font-weight: bold;
-  padding: 20px 0px 10px;
+  padding: 50px 0px 10px;
   position: relative;
   left: 10px;
 }
@@ -34,10 +34,6 @@ div {
   text-align: center;
 }
 
-.container {
-  margin: 0 auto;
-}
-
 .submit-button {
   background-color: black;
   color: white;
@@ -57,5 +53,21 @@ div {
 }
 
 .cloud-icon {
-  font-size: 50px;
+  font-size: 15px;
+}
+
+.weather {
+  padding: 10px 50px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 30px 50px rgba(0, 0, 0, 0.08);
 }
