@@ -37,11 +37,15 @@ div {
 .submit-button {
   background-color: black;
   color: white;
+  margin: 10px;
+  padding: 10px 20px;
+  height: 50px;
 }
 
 .location-button {
   background-color: #596aca;
   color: white;
+  border-radius: 4px;
 }
 
 .units {
@@ -70,4 +74,12 @@ div {
   padding: 40px;
   border-radius: 16px;
   box-shadow: 0 30px 50px rgba(0, 0, 0, 0.08);
+}
+
+.city-input {
+  width: 100%;
+}
+
+.weather-icon {
+  height: 100px;
 }

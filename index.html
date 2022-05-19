@@ -18,13 +18,15 @@
         <link rel="stylesheet" href="src/style.css"/>
         
         <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+        <script src="https://kit.fontawesome.com/df897fefee.js" crossorigin="anonymous"></script>
       </head>
       <body>
         <div class="container">
           <div class="weather"></div>
           <form id="search-form">
             <div class="row">
-              <div class="col-6">
+              <div class="col-8 ">
                 <input 
                   type="text"
                   placeholder="Enter a city"
@@ -32,8 +34,8 @@
                   id="city-input"
                 />
               </div>
-              <div class="col-6">
-                <form>
+              <div class="col-4">
+                <form class="btn btn-primary" id="submit-button"></form>
                 <input 
                 type="submit"
                 value="Search" 
@@ -42,23 +44,21 @@
                 autofocus = "on"
                 />
               </form>
-
-            
-        
-                <button class="location-button" id="location-button">Current location</button>
+                <button class="location-button" id="location-button"><i class="fa-solid fa-location-dot"></i></button>
               </div>
             </div>
           </form>
 
-          <h1 id="city">Singapore 🌧</h1>
+          <h1 id="city">Singapore</h1>
           <p id="description">Light thunderstorms and rain</p>
 
           <h3><span class="temperature" id="temperature"
             >19</span><span class="units">°C
-        
             </span>
         </h3>
-
+           <p>
+             <i class="fa-solid fa-cloud-rain" weather-icon></i>
+           </p>
           <p>
             Humidity: <span id="humidity">84</span>%
             <br />
@@ -131,7 +131,8 @@
           </div>
 
         </br>
-          <a href="https://github.com/summerleekh/weather-app/">Open-source code</a> by Summer Lee
+          <a href="https://github.com/summerleekh/weather-app/" target="
+          _blank">Open-source code</a> by Summer Lee
           <script src="src/script.js">
           </script>
           </div>
