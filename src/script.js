@@ -20,7 +20,7 @@ function formatDate(date) {
   ];
   let day = days[dayIndex];
 
-  return `${day} ${hours}:${minutes}`;
+  return `Last updated at ${day} ${hours}:${minutes}`;
 }
 
 function displayWeatherCondition(response) {
