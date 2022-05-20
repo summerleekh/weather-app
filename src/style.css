@@ -61,7 +61,9 @@ div {
 }
 
 .weather {
+  max-width: 600px;
   padding: 10px 50px;
+  margin: 30px auto;
 }
 
 .container {
@@ -71,9 +73,10 @@ div {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  padding: 40px;
+  padding: 20px;
   border-radius: 16px;
   box-shadow: 0 30px 50px rgba(0, 0, 0, 0.08);
+  max-width: 600px;
 }
 
 .city-input {
@@ -82,4 +85,13 @@ div {
 
 .weather-icon {
   height: 100px;
+}
+
+.open-source {
+  font-size: 10px;
+}
+
+.divider {
+  color: black;
+  font-size: 10px;
 }
