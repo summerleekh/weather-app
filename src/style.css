@@ -10,7 +10,7 @@ h3 {
   font-size: 50px;
   padding: 15px;
   position: relative;
-  left: 10px;
+  left: 20px;
 }
 
 h4 {
@@ -35,12 +35,15 @@ div {
 }
 
 .submit-button {
+  display: block;
   background-color: black;
   color: white;
   margin: 20px;
   padding: 5px 10px;
   height: 50px;
   border: none;
+  position: relative;
+  top: 1px;
 }
 
 .location-button {
@@ -96,5 +99,5 @@ div {
 
 .divider {
   color: black;
-  font-size: 10px;
+  font-size: 5px;
 }
