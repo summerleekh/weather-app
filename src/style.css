@@ -32,10 +32,6 @@ p {
   margin: 10px;
 }
 
-div {
-  text-align: center;
-}
-
 .submit-button {
   display: block;
   background-color: rgb(52, 51, 51);
@@ -79,6 +75,7 @@ div {
 }
 
 .weather {
+  text-align: center;
   max-width: 600px;
   padding: 10px 50px;
   margin: 30px auto;
@@ -115,4 +112,23 @@ div {
 
 .weather .active:hover {
   text-decoration: none;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.weather-forecast-date {
+  font-size: 20px;
+  color: #596aca;
+  font-weight: bold;
+}
+
+.weather-forecast-temperature-max {
+  font-size: 16px;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
 }
