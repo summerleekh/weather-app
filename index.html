@@ -27,7 +27,7 @@
           <div class="weather">
           <form id="search-form">
             <div class="row">
-              <div class="col-8">
+              <span class="col-9">
                 <input 
                   type="search"
                   placeholder="Enter a city"
@@ -36,19 +36,19 @@
                   class="form-control"
                   id="city-input"
                 />
-              </div>
-              <div class="col-4">
+              </span>
+              <span class="col-3">
     
                 <input 
                 type="submit"
                 value="Search" 
                 placeholder="Enter a city"
-                class="btn btn-primary w-95" 
+                class="btn btn-primary submit-button" 
                 id="submit-button"
                 />
               </form>
                 <button class="location-button" id="location-button"><i class="fa-solid fa-location-dot"></i></button>
-              </div>
+            </span>
             </div>
           </form>
 
@@ -71,6 +71,7 @@
 
           <h4><span id="date"> <span id="current-day"></span> <span id="current-hour"></span><span id="current-minutes"></span></span></h4>
 
+          <div class="weather-forecast"
           <div class="row">
             <div class="col">
               <h5>
@@ -99,7 +100,7 @@
             </div>
           </div>
 
-          <div class="row cloud-icon">
+          <div class="row forecast-icons">
             <div class="col">
               🌧
             </div>
@@ -116,7 +117,7 @@
               🌧
             </div>
           </div>
-          <div class="row">
+          <div class="row forecast-temperature">
             <div class="col">
               32°
             </div>
@@ -133,6 +134,7 @@
               32°
             </div>
           </div>
+           </div>
 
         </br>
         <p>

@@ -1,16 +1,18 @@
 h1 {
   color: #596aca;
   font-weight: bold;
-  padding: 50px 0px 10px;
+  padding: 0px 0px 10px;
   position: relative;
   left: 10px;
+  margin-top: 0px;
 }
 
 h3 {
   font-size: 50px;
-  padding: 15px;
+  padding: 15px 15px 0px 15px;
   position: relative;
   left: 20px;
+  margin-bottom: 0px;
 }
 
 h4 {
@@ -36,22 +38,36 @@ div {
 
 .submit-button {
   display: block;
+  background-color: rgb(52, 51, 51);
+  color: white;
+  border: none;
+  margin-right: 0px;
+  height: 36.7px;
+  position: relative;
+  right: 21.5px;
+}
+
+.submit-button:hover {
   background-color: black;
   color: white;
-  margin: 20px;
-  padding: 5px 10px;
-  height: 50px;
   border: none;
-  position: relative;
-  top: 1px;
 }
 
 .location-button {
   background-color: #596aca;
   color: white;
   border-radius: 4px;
-  padding: 7px 13px;
+  padding: 5px 15px;
+  height: 36.67px;
   border: none;
+  position: relative;
+  bottom: 36.5px;
+  left: 28px;
+}
+
+.location-button:hover {
+  background-color: #4e5cb1;
+  color: white;
 }
 
 .units {
@@ -60,10 +76,6 @@ div {
   position: relative;
   bottom: 30px;
   left: 10px;
-}
-
-.cloud-icon {
-  font-size: 15px;
 }
 
 .weather {
@@ -87,10 +99,6 @@ div {
 
 .city-input {
   width: 100%;
-}
-
-.weather-icon {
-  height: 100px;
 }
 
 .divider {
