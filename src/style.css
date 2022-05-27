@@ -38,9 +38,10 @@ p {
   color: white;
   border: none;
   margin-right: 0px;
-  height: 36.7px;
+  height: 36.9px;
   position: relative;
   right: 21.5px;
+  top: 0.5px;
 }
 
 .submit-button:hover {
@@ -54,7 +55,7 @@ p {
   color: white;
   border-radius: 4px;
   padding: 5px 15px;
-  height: 36.67px;
+  height: 36.9px;
   border: none;
   position: relative;
   bottom: 36.5px;
@@ -131,4 +132,9 @@ p {
 
 .weather-forecast-temperature-min {
   opacity: 0.5;
+}
+
+.open-source {
+  text-align: center;
+  font-size: smaller;
 }
